@@ -1,0 +1,38 @@
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap; 
+  }
+
+  .statistic-card {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px; 
+  }
+  
+  .left-border {
+    width: 8px;
+    background-color:#cc3549; 
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
